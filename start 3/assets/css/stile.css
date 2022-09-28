@@ -12,7 +12,6 @@ header {
     text-align: center;
     color: aliceblue;
     height: 35vh;
-    border-bottom: 5px solid #0e5e77;
 }
 
 header > h1 {
@@ -154,7 +153,6 @@ footer {
     text-align: center;
     color: white;
     line-height: 2;
-    border-top: 4px solid #2a9abc;
 }
 
 footer small {
