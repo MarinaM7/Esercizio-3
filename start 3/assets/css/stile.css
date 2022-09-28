@@ -1,0 +1,166 @@
+/* IMPOSTAZIONI GENERALI */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+/* HEADER */
+
+header {
+    background-color: #2a9abc;
+    text-align: center;
+    color: aliceblue;
+    height: 35vh;
+}
+
+header > h1 {
+    text-transform: uppercase;
+    line-height: 1.7;
+    font-size: 2em;
+    padding-top: 1em;
+    font-weight: 300;
+}
+
+.mario {
+    background-color: aliceblue;
+    color: #2a9abc;
+}
+
+header > h2 {
+    text-transform: uppercase;
+    color: #3e3d3d;
+    font-size: 1.4em;
+    margin-top: 1.7em;
+    font-weight: 300;
+}
+
+/* MAIN */
+
+main {
+    margin: 1.5em;
+}
+
+/* ELEMENTI NEL MAIN */
+
+main h2 {
+    text-transform: uppercase;
+    color: #2a9abc;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+figure {
+    text-align: center;
+}
+
+.pc {
+    width: 75%;
+    height: auto;
+    padding: 0.8em;
+    border: 1px solid lightgray;
+}
+
+figcaption{
+    margin-top: 1em;
+    font-size: large;
+}
+
+address{
+    margin: 1.5em;
+    font-size: large;
+    line-height: 1.8;
+}
+
+address b {
+    font-weight: 700;
+}
+
+a {
+    color: rgb(203, 20, 20);
+}
+
+address img {
+    padding-right: 0.3em;
+}
+
+.suMe {
+    font-weight: 700;
+    padding-bottom: 1.5em;
+    font-size: large;
+}
+
+blockquote {
+    background-color: lightgray;
+    padding: 2em;
+    font-size: larger;
+    line-height: 2;
+    border-radius: 20px;
+    font-style: italic;
+}
+
+main p {
+    font-size: large;
+    line-height: 1.8;
+}
+
+main strong {
+    color: #4cadca;
+}
+
+main mark {
+    background-color: #2a9abc;
+    color: white;
+    font-weight: 500;
+}
+
+main h3 {
+    font-size: large;
+    font-weight: 600;
+    padding-bottom: 1em;
+}
+
+.spazioSu {
+    padding-top: 1em;
+}
+
+hr {
+    margin-top: 3em;
+    margin-bottom: 2em;
+    border: 0.8px dashed #0d0d01;
+}
+
+ul {
+    padding-left: 3em;
+    line-height: 1.8;
+    padding-top: 1em;
+}
+
+dl {
+    line-height: 1.8;
+}
+
+dl dd {
+    padding-left: 2em;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #3e3d3d;
+    text-align: center;
+    color: white;
+    line-height: 2;
+}
+
+footer small {
+    color: lightgray;
+}
+
+footer kbd {
+    color: yellow;
+    font-style: italic;
+    font-weight: bold;
+}
